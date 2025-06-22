@@ -25,7 +25,7 @@ install-deps() {
 
 main() {
   cd "$(dirname "$0")/../.."
-  source ./ci/lib.sh
+  source ./ci/steps/lib.sh
 
   install-deps test
   install-deps test/e2e/extensions/test-extension
